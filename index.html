@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MoneyMinder</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Syne:wght@400..800&display=swap" rel="stylesheet">
@@ -16,8 +17,11 @@
     <h1  class="heading"> personal </h1>
     <h1 class="heading2">finance</h1>
 </div>
-<div class="profile">
 
+
+<!-- atm cards  -->
+
+<div class="profile">
     <div class="iv" id="pro">
         <div class="aside">
           <img src="tanish.jpeg" alt="" id="logoo" />
@@ -47,20 +51,41 @@
       </div>
 </div>
 <img src="tanish.jpeg" alt="" id="logo">
-<div class="flex">
-    <div class="income">
-        <h3>money you get</h3>
-        <input type="number" id="income" placeholder="Enter your monthly income">
-        <input type="text" name="text" id="text" placeholder="add the discription">
-        <button onclick="addincome()">add to Income</button>
-     </div> 
-     <div class="expences">
-        <h3>spend money</h3> 
-        <input type="number" id="expences" placeholder="money you spend">
-        <input type="text" name="text" id="text" placeholder="add the discription">
-        <button onclick="addincome()">add spends</button>
-     </div>
+<div class="row"><div class="flex">
+  <div class="income">
+      <h3>money you get</h3>
+      <input type="number" id="income" placeholder="Enter your monthly income">
+      <input type="text" name="text" id="text" placeholder="add the discription">
+      <button onclick="addincome()">add to Income</button>
+   </div> 
+   <div class="expences">
+      <h3>spend money</h3> 
+      <input type="number" id="expences" placeholder="money you spend">
+      <input type="text" name="text" id="text" placeholder="add the discription">
+      <button onclick="addincome()">add spends</button>
+   </div>
 </div>
+<div class="atm" onclick="  alert('sorry your atm card in not valid currently plz update this App or Webpage')">
+  <h3>Toxco</h3>
+<div class="scane-code">
+  <img src="chip.png" id="chip" alt="">
+<h4></h4></div>
+<div class="card-no">
+<h3>2323</h3>
+<h3>3323</h3>
+<h3>34543</h3>
+<h3>****</h3>
+</div>
+<div class="cvv">
+  <h3>8/23</h3>
+</div>
+<div class="end visa">
+  <h4>shamsunder</h4>
+</div>
+
+
+
+  </div></div>
 </div>
     <script src="script.js"></script>
 </body>
