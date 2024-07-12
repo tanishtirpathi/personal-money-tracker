@@ -344,3 +344,65 @@ body {
   text-align: start;
   padding: 0px 30px;
 }
+.income-ex {
+  height: 80vh;
+  width: 300px;
+  position: absolute;
+  overflow-y: scroll;
+  right: 30px;
+  top: 120px;
+  padding: 10px 10px;
+  color: wheat;
+  box-shadow: 0px 0px 10px rgb(10, 170, 10);
+}
+.income-ex ul li {
+  list-style: none;
+  font-size: 20px;
+  box-shadow: 0px 0px 4px white;
+  font-family: syne;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-align: start;
+  text-shadow: 2px 2px 2px black;
+  filter: brightness(70%);
+  padding: 4px 10px;
+  transition: all 0.3s ease-out;
+  background: linear-gradient(
+    30deg,
+    rgba(0, 54, 0, 0.568),
+    rgb(9, 219, 9),
+    rgba(4, 182, 4, 0.568),
+    rgba(0, 182, 0, 0.658),
+    rgb(0, 255, 0),
+    rgba(6, 116, 6, 0.63),
+    rgba(0, 255, 0, 0.911),
+    rgba(1, 49, 1, 0.589)
+  );
+}
+.income-ex ul li:hover {
+  filter: brightness(100%);
+  transform: scale(1.01);
+}
+.scanner {
+  padding: 10px;
+  margin: 40px;
+  box-shadow: 0px 0px 10px green;
+}
+.scanner h3 {
+  font-size: 20px;
+  font-family: syne;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  text-align: start;
+  padding: 0px 30px;
+  text-shadow: 2px 2px 2px black;
+  font-weight: 300;
+}
+.scanner img {
+  width: 200px;
+  height: 200px;
+
+  margin-left: 11px;
+  box-shadow: 0px 0px 10px wheat;
+}
